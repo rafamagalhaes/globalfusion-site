@@ -576,7 +576,7 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #5c9f24;
+  color: #000080;
 }
 
 .section-title p {
@@ -787,6 +787,71 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Cases
+--------------------------------------------------------------*/
+.cases .icon-box {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.cases .icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+  background: #fff;
+  border-radius: 50%;
+  transition: 0.5s;
+  color: #5c9f24;
+  overflow: hidden;
+  box-shadow: 0px 0 25px rgba(0, 0, 0, 0.15);
+}
+
+.cases .icon i {
+  font-size: 36px;
+  line-height: 0;
+}
+
+.cases:hover .icon {
+  box-shadow: 0px 0 25px rgba(92, 159, 36, 0.3);
+}
+
+.cases .title {
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 18px;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.cases .title a {
+  color: #444444;
+  transition: 0.3s;
+}
+
+.cases .title a:hover {
+  color: #5c9f24;
+}
+
+.cases .title::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #5c9f24;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.cases .description {
+  line-height: 24px;
+  font-size: 14px;
+}
+
+/*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
 .why-us .box {
@@ -799,7 +864,7 @@ section {
   display: block;
   font-size: 28px;
   font-weight: 700;
-  color: #8ed851;
+  color: #0000CD;
 }
 
 .why-us .box h4 {
@@ -818,7 +883,7 @@ section {
 }
 
 .why-us .box:hover {
-  background: #5c9f24;
+  background: #000080;
   padding: 30px 30px 70px 30px;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
